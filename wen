@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Acquaintance with CSS</title>
+
+<!--Internal CSS Stylesheet-->
+<style> 
+body{
+background-color:#f0f8ff;
+font-family:arial,sans-serif;
+margin:30px;
+}
+h1{
+color:darkblue;
+text-align:center;
+text-transform:uppercase;
+}
+P{
+color:#333;
+font-size:18px;
+line-height:1.6;
+}
+.box{
+background-color:lightgray;
+border:2px solid black;
+border-radius:8px;
+padding:15px;
+width:350px;
+margin:20px auto;
+text-align:center;
+}
+h3{
+color:darkred;
+}
+</style>
+</head>
+<body>
+<h1>Welcome to CSS Styling</h1>
+<p>This webpage demonstrates how to create and use a stylesheet with different CSS properties to make a webpage look better.</p>
+<div class="box">
+<h3>About CSS</h3>
+<p> CSS stands for Cascading Style Sheets. It is used to style HTML elements such as text color,font,border and layout.</p>
+</div>
+</body>
+</html>
+                                                                                                                                                                                                                                                                                                                                                                
