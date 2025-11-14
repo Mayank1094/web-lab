@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Positioning and Block Properties</title>
+<style>
+body{
+background:lightyellow;
+height:1000px;
+}
+.box{
+width:100px;
+padding:10px;
+margin:10px;
+border:2px solid black;
+text-align:center;
+}
+.static{
+position:static;
+background:lightblue;
+}
+.relative{
+position:relative;
+top:20px;
+left:20px;
+background:lightgreen;
+}
+.absolute{
+position:absolute;
+top:200px;
+left:50px;
+background:lightcoral;
+}
+.fixed{
+position:fixed;
+top:10px;
+right:10px;
+background:plum;
+}
+.sticky{
+position:sticky;
+top:0;
+background:gold;
+}
+.inline strong{
+display:inline;
+background:pink;
+margin:5px;
+}
+.inline-block strong{
+display:inline-block;
+background:lightgray;
+margin:5px;
+padding:5px;
+}
+.flex{
+display:flex;
+background:peachpuff;
+padding:5px;
+}
+.grid{
+display:grid;
+grid-template-columns:auto auto auto;
+background:lightcyan;
+padding:5px;
+}
+</style>
+</head>
+<body>
+<h3 align="center">Positioning and Block properties</h3>
+<div class="box static">Static</div>
+<div class="box relative">Relative</div>
+<div class="box absolute">Absolute</div>
+<div class="box fixed">Fixed</div>
+<div class="box sticky">sticky</div>
+<h4>Inline</h4>
+<div class="inline"><strong>One</strong><strong>Two</strong><strong>Three</strong></div>
+<h4>Inline-block</h4>
+<div class="inline-block">
+<Strong>One</strong><strong>Two</strong><strong>Three</strong></div>
+<h4>Flex</h4>
+<div class="flex">
+<strong>One</strong><strong>Two</strong><strong>Three</strong></div>
+<h4>Grid</h4>
+<div class="grid">
+<strong>One</strong><strong>Two</strong><strong>Three</strong></div>
+<p>Scroll to see Sticky and Fixed boxes in action..</p>
+</body>
+</html>
