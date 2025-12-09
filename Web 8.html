@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Working with Frames</title>
+</head>
+<frameset rows="20%, 80%">
+<frame src="header.html" name="topFrame">
+<frameset cols="25%, 75%">
+<frame src="menu.html" name="leftFrame">
+<frame src="content.html" name="rightFrame">
+</frameset>
+</frameset>
+</html>
+<!DOCTYPE html>
+<html>
+<head>
+<title>Header</title>
+</head>
+<body bgcolor="lightblue">
+<h1 align="center">My Sample Webpage using Frames</h1>
+</body>
+</html>
+<!DOCTYPE html>
+<html>
+<head>
+<title>Menu</title>
+</head>
+<body bgcolor="lightyellow">
+<h3>Menu</h3>
+<ul>
+<li><a href="home.html" target="rightFrame">Home</a></li>
+<li><a href="about.html" target="rightFrame">About</a></li>
+<li><a href="contact.html" target="rightFrame">Contact</a></li>
+</ul>
+</body>
+</html>
+<!DOCTYPE html>
+<html>
+<head>
+<title>Content</title>
+</head>
+<body bgcolor="lightgreen">
+<h2>Welcome!</h2>
+<p>Select an option from the menu to view its content.</p>
+</body>
+</html>
